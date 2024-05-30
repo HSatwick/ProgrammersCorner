@@ -61,7 +61,7 @@ public class mergeSort {
 			while (j < data.length - 1) {
 				int right = (j + i) - 1;
 				int left = j;
-				if (right > data.length) {
+				if (right >= data.length) {
 					right = data.length - 1;
 				}
 				int middle = (left + right) / 2;
